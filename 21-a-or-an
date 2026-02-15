@@ -1,0 +1,10 @@
+public String aOrAn(String word) {
+    String listOfVowels = 'a, e, i, o, u';
+    if(listOfVowels.contains(word.substring(0,1))) {
+        return 'an ' + word;
+    } else {
+        return 'a ' + word;
+    }
+}
+
+// alternative: startsWith()
