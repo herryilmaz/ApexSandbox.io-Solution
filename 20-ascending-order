@@ -1,7 +1,11 @@
 public Boolean ascendingOrder(Integer a, Integer b, Integer c) {
-    if(c <= b && b <= a) {
+    if(c >= b && b >= a) {
         return true;
     } else {
         return false;
     }
 }
+
+// ascending:
+// 5, 10, 15
+// 
